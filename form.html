@@ -1,0 +1,132 @@
+<!DOCTYPE>
+<HTML>
+ <head>
+
+	<div id="test">
+	<title>form</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<h1> FORM PENDAFTARAN PEMBUATAN E-KTP</h1>
+ </head>
+
+ <body>
+
+	<fieldset>
+	<div id="color">
+	<table border="0">
+	<form>
+			<tr>
+				<td><label for="NIK">NIK</label></td>
+				<td><input type="nik" placeholder="Nomor Induk Kependudukan" id="nik"></td>
+			</tr>
+
+			<tr>
+				<td><label for="nama">Nama</label></td>
+				<td><input type="text"  placeholder="Nama depan" id="namadepan">
+				<input type="text"  placeholder="Nama belakang" id="namabelakang"></td>
+			</tr>
+
+			<tr>
+				<td><label for="ultah">Tanggal lahir</label></td>
+				<td><input type="date" name="date" id="date"></td> <!--support di chrom-->
+			</tr>
+
+			<tr>
+			<td><label for="gender">Jenis Kelamin</label></td>
+			<td>
+			<input type="radio" name="gender" value="0" >Laki-laki
+			<input type="radio" name="gender" value="1">Perempuan</td>
+
+			</tr>
+
+			<tr>
+			<td><label for="Goldar">Golongan Darah</label></td>
+			<td>
+			<select name="Goldar" id="goldar">
+				<option>-pilih satu-</option>
+				<option>A</option>
+				<option>B</option>
+				<option>AB</option>
+				<option>O</option>
+			</select>
+			</td>
+			</tr>
+
+			<tr>
+				<td><label for="alamat">Alamat</label></td>
+				<td><textarea name="alamat" cols="20" rows="3" id="alamat"></textarea></td>
+			</tr>
+
+			<tr>
+				<td><label for="RT">RT/RW</label></td>
+				<td><input type="text" name="RT" id="RT" placeholder="RT">
+				<input type="text" name="RW" id="RW" placeholder="RW"></td>
+			</tr>
+
+			<tr>
+				<td><label for="lurah">Kelurahan</label></td>
+				<td><input type="text" name="lurah" id="lurah"></td>
+			</tr>
+
+			<tr>
+				<td><label for="kota">Tempat Tinggal</label></td>
+				<td>
+				<select name="kota" id="tempattinggal">
+				<optgroup label="Pulau jawa">
+					<option value="pilih">-pilih satu-</option>
+					<option value="Jakarta">Jakarta</option>
+					<option value="Bandung">Bandung</option>
+					<option value="Yogyakarta">Yogyakarta</option>
+					<option value="Malang">Malang</option>
+				</optgroup>
+					<optgroup label="Pulau Sumatera">
+					<option value="Medan">Medan</option>
+					<option value="Aceh">Aceh</option>
+					<option value="Riau">Riau</option>
+					<option value="Jambi">Jambi</option>
+					<option value="Padang">Padang</option>
+				</optgroup>
+				</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td><label for="agama">Agama</label></td>
+				<td><input type="text" name="agama" id="agama"></td>
+			</tr>
+
+			<tr>
+				<td><label for="pekerjaan">Pekerjaan</label>
+				<td><input type="text" name="pekerjaan" id="pekerjaan"></td>
+			</tr>
+
+			<tr>
+				<td><label for="status">Status</label></td>
+				<td>
+				<select name="status" id="status">
+					<option>-pilih satu-</option>
+					<option>Menikah</option>
+					<option>Belum menikah</option>
+				</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td><label for="hp">Nomor Telepon</label></td>
+				<td><input type="number" name="hp" id="number"></td>
+			</tr>
+
+			<tr>
+				<td><input type="submit" value="Submit" /></td>
+			</tr>
+
+	</form>
+	</table>
+	</fieldset>
+
+	</div>
+	</div>
+
+ </body>
+
+</HTML>
